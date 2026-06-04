@@ -15,7 +15,7 @@
 - *CSS(Cascading Style Sheet)*
 
 ## 📸 **Here is the screenshot of the project**
-<img src = "rubic_cube.png" height = "100px" width = "100px">
+<img src = "rubic_cube.png" height = "200px" width = "200px">
 
 ## 🎥 **Here is the demo video of the project**
 <img src = "demo.mp4" height = "100px" width = "100px">
