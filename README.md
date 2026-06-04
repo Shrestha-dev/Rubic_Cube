@@ -18,7 +18,7 @@
 <img src = "rubic_cube.png" height = "400px" width = "400px">
 
 ## 🎥 **Here is the demo video of the project**
-<video controls>
+<video height = "400px" width = "400px" controls>
     <source src="demo.mp4" type="video/mp4">
 </video>
 
