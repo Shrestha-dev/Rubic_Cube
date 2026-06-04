@@ -18,9 +18,7 @@
 <img src = "rubic_cube.png" height = "400px" width = "400px">
 
 ## 🎥 **Here is the demo video of the project**
-<video height = "400px" width = "400px" controls>
-    <source src="demo.mp4" type="video/mp4">
-</video>
+[Watch DEMO](demo.mp4)
 
 ## 💻 **How to see it in vs studio**
 - open index.html file in vs studio
