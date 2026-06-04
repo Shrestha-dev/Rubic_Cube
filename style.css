@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Ole", cursive;
+    padding: 30px;
+    font-size: 100px;
+    color: #0be0e0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    perspective: 1000px;
+}
+.scene{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.cube{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 7s infinite linear;
+}
+.face{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 6px;
+    gap: 6px;
+    border-radius: 10px;
+}
+.face div{
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+/* position of 6 sides of rubic cube */
+
+.front{ transform: rotateY(0deg) translateZ(100px);}
+
+.back{ transform: rotateY(180deg) translateZ(100px);}
+
+.right{ transform: rotateY(90deg) translateZ(100px);}
+
+.left{ transform: rotateY(-90deg) translateZ(100px);}
+
+.top{ transform: rotatex(90deg) translateZ(100px);}
+
+.bottom{ transform: rotatex(-90deg) translateZ(100px);}
+
+/* Adding differnet colors to the sides of cube */
+
+.front div{background: white;}
+.back div{background: yellow;}
+.right div{background: red;}
+.left div{background: orange;}
+.top div{background: blue;}
+.bottom div{
+    background: green;
+}
+
+@keyframes spin
+{
+    0% {transform: rotateX(0deg) rotateY(0deg);}
+    50% {transform: rotateX(180deg) rotateY(180deg);}
+    100% {transform: rotateX(360deg) rotateY(360deg);}  
+}
+
+
+
+
+
+
+
+
+
+
