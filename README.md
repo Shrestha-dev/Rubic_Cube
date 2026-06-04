@@ -15,10 +15,12 @@
 - *CSS(Cascading Style Sheet)*
 
 ## 📸 **Here is the screenshot of the project**
-<img src = "rubic_cube.png" height = "200px" width = "200px">
+<img src = "rubic_cube.png" height = "400px" width = "400px">
 
 ## 🎥 **Here is the demo video of the project**
-<img src = "demo.mp4" height = "100px" width = "100px">
+<video controls>
+    <source src="demo.mp4" type="video/mp4">
+</video>
 
 ## 💻 **How to see it in vs studio**
 - open index.html file in vs studio
