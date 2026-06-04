@@ -19,6 +19,7 @@
 
 ## 🎥 **Here is the demo video of the project**
 [Watch DEMO](demo.mp4)
+*you can dowload the video and see the preview*
 
 ## 💻 **How to see it in vs studio**
 - open index.html file in vs studio
